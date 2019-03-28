@@ -1,3 +1,4 @@
-@prefix : <http://tutorialacademy.com/2015/jena#> .
+@prefix : <http://nordea.com/arc/openshift#> .
 
-[ruleHasStudent: (?s :hasClass ?c) (?p :teaches ?c) -> (?p :hasStudent ?s)]
+[ruleServiceFromServer: (?s :runsOn ?c) (?c :deployedOn ?srv) -> (?s :isOn ?srv)]
+
