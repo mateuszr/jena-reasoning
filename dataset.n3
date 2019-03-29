@@ -8,10 +8,8 @@
 
 :Server1 :belongsToEnv :Prod .
 :Server2 :belongsToEnv :Prod .
-
+# this part is violating defined constraints
 :Server2 :belongsToEnv :Test .
-
-
 
 :Service1 a :Service .
 :Service2 a :Service .
