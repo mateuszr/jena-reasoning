@@ -1,5 +1,8 @@
-# jena-reasoning-with-rules
+# jena-reasoning
+
 Reasoning with Apache Jena and rules
 
-## About
-Detailed explanation can be found here: [tutorial-academy.com](http://tutorial-academy.com/jena-reasoning-with-rules/)
+Run:
+
+mvn clean install
+mvn exec:java
